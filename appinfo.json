@@ -1,0 +1,137 @@
+{
+  "uuid": "0c7bef9b-c537-4a4d-bfbc-2c364c70c05a",
+  "shortName": "Big Tap",
+  "longName": "Big Tap",
+  "companyName": "Steve Appling",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "capabilities": [ "configurable" ],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "background": 0,
+    "showday": 1,
+    "reqvalues": 3
+},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_big_watch.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_0_72",
+        "file": "images/num_0_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_1_72",
+        "file": "images/num_1_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_2_72",
+        "file": "images/num_2_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_3_72",
+        "file": "images/num_3_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_4_72",
+        "file": "images/num_4_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_5_72",
+        "file": "images/num_5_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_6_72",
+        "file": "images/num_6_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_7_72",
+        "file": "images/num_7_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_8_72",
+        "file": "images/num_8_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_9_72",
+        "file": "images/num_9_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_0_84",
+        "file": "images/num_0_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_1_84",
+        "file": "images/num_1_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_2_84",
+        "file": "images/num_2_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_3_84",
+        "file": "images/num_3_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_4_84",
+        "file": "images/num_4_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_5_84",
+        "file": "images/num_5_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_6_84",
+        "file": "images/num_6_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_7_84",
+        "file": "images/num_7_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_8_84",
+        "file": "images/num_8_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_9_84",
+        "file": "images/num_9_84.png"
+      },
+      {
+        "type": "font",
+        "name": "FONT_NEVIS_20",
+        "file": "fonts/nevis_20.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_NEVIS_50",
+        "file": "fonts/nevis_50.ttf"
+      }
+    ]
+  }
+}

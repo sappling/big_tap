@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+<script src="jquery.ba-bbq.js"></script>
+</head>
+
+<body>
+	<div data-role="page">
+	  <div data-role="header">
+	    <h1>Big Time Date</h1>
+	  </div>
+
+	  <div data-role="content">
+		<h3>Configuration</h3>
+		<form>
+		      <div data-role="fieldcontain">
+		        <label for="background">Background Color:</label>
+		        <select name="background" id="background" data-role="slider">
+		          <option value="true">Black</option>
+		          <option value="false">White</option>
+		        </select>
+		      </div>
+		      <div data-role="fieldcontain">
+		        <label for="dom">Show Day of Month:</label>
+		        <select name="dom" id="dom" data-role="slider">
+		          <option value="true">On</option>
+		          <option value="false">Off</option>
+		        </select>
+		      </div>        
+		      <div class="">
+				  <fieldset class="ui-grid-a">   
+			         <div class="ui-block-a"><button id="cancel">Cancel</button></div>
+			         <div class="ui-block-b"><button id="submit">Submit</div>
+		          </fieldset>
+		      </div>
+		</form>	  
+	</div> 
+</body>
+<script> 
+// set up starting values before jquery mobile create happens
+var params = jQuery.deparam.querystring();
+for (var name in params){
+	$("#"+name).val(params[name]);
+}
+
+$().ready(function() {
+	$( "#submit" ).click(function( event ) {
+	  var data = JSON.stringify($( "form" ).serializeArray());
+	  window.location.href = "pebblejs://close#"+data;
+	}); 
+	
+	$("#cancel").click(function(event) {
+		window.location.href = "pebblejs://close#";
+	});
+});
+</script>
+</html>
